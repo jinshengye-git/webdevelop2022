@@ -1,4 +1,9 @@
 console.log("Learning JS");
-window.alert("test2222");
+
 console.log("hi");
-prompt("input your name");
+
+
+
+let name = prompt("input your name ");
+console.log(name);
+window.prompt("your name is: ", name);
